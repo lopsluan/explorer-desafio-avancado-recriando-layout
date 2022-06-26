@@ -20,8 +20,9 @@ nav {
   padding-top: 70px;
 }
 
-p, h1 {
-    margin: 0;
+p,
+h1 {
+  margin: 0;
 }
 
 .logo {
@@ -36,6 +37,7 @@ ul {
 }
 
 li {
+  font-size: 14px;
   list-style: none;
 }
 
@@ -74,7 +76,8 @@ section p {
   width: 604px;
 }
 
-p strong {
+p span {
+  font-weight: bold;
   color: #00bfa6;
 }
 
@@ -87,11 +90,11 @@ h1 span {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    padding-bottom: 23px;
+  padding-bottom: 23px;
 }
 
 .line {
@@ -101,12 +104,14 @@ footer {
   border: 1px solid #00bfa6;
 }
 
-footer p, p a {
-    color: #FFF
+footer p,
+p a {
+  font-size: 14px;
+  color: #fff;
 }
 
 .padlock {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
